@@ -5,7 +5,7 @@
 ### Perform analysis of MySQL DB extract
 
 ### Document DB structure (UML, English language)
-![alt text](test_task/UML_calls.pdf)
+![alt text](test_task/UML_calls.png)
 ### Use SQL for data aggregation and reporting
 
 ## Reports
