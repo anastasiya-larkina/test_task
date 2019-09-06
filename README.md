@@ -5,14 +5,14 @@
 ### Perform analysis of MySQL DB extract
 
 ### Document DB structure (UML, English language)
-![alt text](test_task/UML_calls.png)
+Tee diagram is in repository test_task.
 ### Use SQL for data aggregation and reporting
 
 ## Reports
 
 ## Total expenses
 
-The result of that SQL query represents total expenses. The other users have not expenses. The data grouped by UID 
+The result of that SQL query represents total expenses. The other users have not expenses. The data grouped by UID.  
 ### Code
 
 ```sql
@@ -70,7 +70,7 @@ order by
 ---
 
 ## Top 10: Most active users
-Only matching data from the joined tables is selected. 
+The result of that SQL query demonstrates top-10 users by call duration. I used "outer join" to select rows from joined tables and "timediff" to define talk time. 
 ### Code
 
 ```sql
