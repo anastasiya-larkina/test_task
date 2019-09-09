@@ -3,9 +3,14 @@
 ## Analysis
 
 ### Perform analysis of MySQL DB extract
+The data base consists of five tables: call_logs, call_forwardings, numbers, accounts.
+The table 'call_logs' contains information about calls between subscribers, concretely, type of call (out or incoming); subscribers' phone numbers; account's UID and time of the call.
+The table 'call_forwardings' has information about readdressing from one number to another.
+The information about subscribers (UID and name)is including in the table 'accounts'.
+And, finally, the table 'rates' consists pricing rules depending on call's type.
 
 ### Document DB structure (UML, English language)
-Tee diagram is in repository test_task.
+The diagram is in repository test_task.
 ### Use SQL for data aggregation and reporting
 
 ## Reports
